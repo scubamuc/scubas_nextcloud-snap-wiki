@@ -2,7 +2,7 @@
 
 ## backup nextcloud-snap using snap snapshot
 
-[documentation](https://snapcraft.io/docs/snapshots))
+[documentation](https://snapcraft.io/docs/snapshots)
 
 * snap stop 'nextcloud'
 * snap save 'nextcloud'
