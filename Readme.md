@@ -1,4 +1,4 @@
-# SCUBA's Nextcloud-snap Wiki
+# SCUBA's Nextcloud-snap [Wiki](https://github.com/scubamuc/scubas_nextcloud-snap-wiki/wiki)
 
 ![SCUBAMUC](https://www.scubamuc.de/bilder/scubuntu-logo-nogradient-400x400.png)
 
