@@ -69,7 +69,7 @@ Allerdings verlangt ein **Raspberry Pi 3B** eine eigene Stromversorgung. Zum Ver
 
 ### Software
 
-* Ubuntu 18.04.4 LTS (Installation: ***xubuntu-18.04-Raspi234***)
+* Ubuntu LTS 
 * Nextcloud-Snap
 * SSH/SFTP (nur Lokal) kein externer Zugriff!
 * SSL-Verschlüsselung über LetsEncrypt (Nextcloud-snap)
