@@ -42,10 +42,10 @@ snap snapshot may be scripted, see example below
 ##############################################################
 
 SNAPNAME="nextcloud"
-TARGET="/media/SNAPBACKUP"  ## Zielordner
-LOG="/media/SNAPBACKUP/snapbackup-nc.log"  ## Lagdatei
-SOURCE="/var/lib/snapd/snapshots" ## Quellordner
-RETENTION="30" ## Aufbewahrungsdauer in Tagen
+TARGET="/media/SNAPBACKUP"  ## target directory
+LOG="/media/SNAPBACKUP/snapbackup-nc.log"  ## logfile
+SOURCE="/var/lib/snapd/snapshots" ## source directory
+RETENTION="30" ## retention in days
 
 ##############################################################
 # FUNCTIONS #
@@ -78,7 +78,7 @@ sudo find $SOURCE/ -name "*.zip" -exec mv '{}' $TARGET/ \; # find and move
 sudo find $TARGET/ -name "*.zip" -mtime +$RETENTION -exec rm -f {} \; # find and delete
 
 ## end log 
-echo "$(timestamp) -- Snapbackup $SNAPNAME Ende " >> "$LOG" ; ## end log 
+echo "$(timestamp) -- Snapbackup $SNAPNAME End " >> "$LOG" ; ## end log 
 echo "" >> "$LOG" ;  ## log linefeed 
 
 exit
