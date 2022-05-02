@@ -5,34 +5,23 @@
 
 ## Lenovo ThinkCentre M92p Tiny
 
-### Ubuntu 20.04
-
-#### **Hardware**:
+### **Hardware**:
 
 ```
 Lenovo ThinkCentre M92p Tiny
-+ Bauform: SFF
-+ Prozessor: Intel Core i5-4570T 
-  (2x 2,9+ GHz / 4 MB Cache / 64-bit / 35 Watt)
-+ Prozessorgrafik: Intel HD 4600
-+ inst. Speicher: 10GB DDR3 (1x8GB+1x2GB)
-+ 1. Festplatte: 500GB Solid State Disk
-+ Netzteil: 65 Watt extern
++ Formfactor: SFF
++ CPU: Intel Core i5-4570T 35 Watt
++ GPU: Intel HD 4600
++ RAM: 10GB DDR3 (1x8GB+1x2GB)
++ SSD: 500GB 
++ Power: 65 Watt external
 ```
 
-**Nextcloud-snap**: nextcloud
+**Snaps**: nextcloud, lxd, lnav
 
 ---
 
-# Hardware -- persönliche Nextcloud
-
-Eine persönliche Nextcloud lässt sich hervorragend auf einem ressourcenschonenden SBC wie **Raspberry Pi** betreiben.
-
-Je nach Strom-Anschlussmöglichkeit sind Bsp. **Raspberry Pi 3B** oder **Raspberry Pi 2B** sehr gut geeignet, wobei ein **Raspberry Pi 3B** einen leistungsfähigeren Prozessor und mehr Arbeitsspeicher zur Verfügung stellt und somit flüssigeres Arbeiten ermöglicht.
-
-Allerdings verlangt ein **Raspberry Pi 3B** eine eigene Stromversorgung. Zum Vergleich könnte der **Raspberry 2B** direkt über den USB-Anschluss des Routers gespeist werden.
-
-## Alternative Hardware
+### Alternative Hardware
 
 **Raspberry Pi 3B:**
 
